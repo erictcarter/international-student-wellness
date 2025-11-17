@@ -80,6 +80,22 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-16 md:py-24 px-4 bg-white">
+        <div className="container max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">See It In Action</h2>
+            <p className="text-lg text-slate-600">Watch how Student Wellness works for international students</p>
+          </div>
+          <div className="max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-lg border border-slate-200">
+            <video controls className="w-full h-auto bg-black">
+              <source src="/demo-video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section id="features" className="py-16 md:py-24 px-4 bg-white">
         <div className="container max-w-6xl mx-auto">
